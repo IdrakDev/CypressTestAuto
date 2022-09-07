@@ -13,7 +13,7 @@ describe("Contact Us", function () {
 
   it("Contact", function () {
     cy.viewport(1920, 1080);
-    cy.visit("https://bestcomp.net/az/contact");
+    cy.visit("https://bestcomp.net/az/contact").scrollTo('bottom');
     cy.location('protocol').should('eq', 'https:');    
     cy.title().should('eq', 'Əlaqə');
     contact.inName().type(`${name}`);
