@@ -25,5 +25,6 @@ describe("GetAQuote", function(){
         cy.get('input[name="subject"]').type("Test");
         cy.get('textarea[name="message"]').type("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum elementum dui, quis dapibus lacus. Sed fringilla libero quis metus tempus dictum. Sed sed mi id mi mattis efficitur ac ac dolor. Proin posuere semper sem. Nulla eros libero, consectetur finibus quam a, sagittis commodo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus arcu et lacus interdum rhoncus.Suspendisse ornare nunc a eros cursus, id vestibulum diam vestibulum. Nunc congue facilisis vulputate. Nullam et lorem quam. Sed molestie odio ac orci tincidunt tincidunt et ut libero. Curabitur aliquam vitae dui ac lacinia. Quisque luctus tristique ipsum ut.");
         cy.contains("Göndər").click().wait(5000);
+        
     })
 });
