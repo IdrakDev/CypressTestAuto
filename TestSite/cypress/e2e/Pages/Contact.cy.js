@@ -1,4 +1,4 @@
-import Contact from "../PagesObjects/ContactUs.cy"
+import Contact from "../PagesObjects/Inputs.cy"
 
 const name = "Idrak"
 const surname = "Mirzoyev"
